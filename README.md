@@ -4,12 +4,12 @@ I live in a seismic zone, in the south of Peru (Arequipa), here it is very commo
 As part of my training as a data scientist, I decided to do a small project that would allow me to do more research on this interesting topic, practice some of the skills I have learned, and learn some new ones.
 
 ## Data
-The dataset
+The dataset used for this project is "All the Earthquakes Dataset : from 1990-2023" located in Kaggle. The Kaggle page of the dataset is: (https://www.kaggle.com/datasets/alessandrolobello/the-ultimate-earthquake-dataset-from-1990-2023/data)
 
 ## Results and Summary
 V
 
-##Conclusion
+## Conclusion
 
 ## Dependencies
 To install the dependencies, run the following command:
@@ -17,5 +17,6 @@ To install the dependencies, run the following command:
 ```bash
 pip install -r requirements.txt
 ```
-##Licence
-L
+## Licence
+└── [LICENSE.txt]()
+
