@@ -18,5 +18,4 @@ To install the dependencies, run the following command:
 pip install -r requirements.txt
 ```
 ## Licence
-[LICENSE.txt](https://github.com/DiegoMZD/Earthquakes/blob/main/LICENSE.txt)
-
+This project is distributed under the [Apache License 2.0](https://github.com/DiegoMZD/Earthquakes/blob/main/LICENSE.txt)
