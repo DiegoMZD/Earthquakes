@@ -6,7 +6,7 @@ As part of my training as a data scientist, I decided to do a small project that
 ## Data
 The dataset used for this project is "All the Earthquakes Dataset : from 1990-2023" located in Kaggle. The Kaggle page of the dataset is: https://www.kaggle.com/datasets/alessandrolobello/the-ultimate-earthquake-dataset-from-1990-2023/data
 
-## Results and Summary
+## Methods and Results
 First it is neccesary to import Numpy (Python library for numerical computing) and Pandas (Python library for data manipulation and analysis). Then I load the data, that is also in the folder data, with the name "Earthquakes-1990-2023.csv": https://github.com/DiegoMZD/Earthquakes/blob/main/data/Eartquakes-1990-2023.csv
 
 ![The data is loaded as we can see the first five rows](https://github.com/DiegoMZD/Earthquakes/blob/main/images/1-load.jpg)
