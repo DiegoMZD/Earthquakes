@@ -9,10 +9,10 @@ The dataset used for this project is "All the Earthquakes Dataset : from 1990-20
 ## Results and Summary
 First it is neccesary to import pandas and numpy ()
 Then load the data, that is also in the folder data, with the name "Earthquakes-1990-2023.csv"
-![The data is loaded as we can see the first five rows](1)
+![The data is loaded as we can see the first five rows](https://github.com/DiegoMZD/Earthquakes/blob/main/images/1-load.jpg)
 
 The data is a dataset with more than 3 millons rows, in terms of time of processing it takes a lot of time to apply the filters and functions that are showed later, so it is neccesary to sample the dataset. Since it is sorted by date, I keep the last 250 000 earthquakes. As you can see, I select only the "data_type" earthquake, because we are looking for premonitory tremors (earthquakes).
-![Data sampled](2)
+![Data sampled](https://github.com/DiegoMZD/Earthquakes/blob/main/images/2-sampling.jpg)
 
 ## Conclusion
 
