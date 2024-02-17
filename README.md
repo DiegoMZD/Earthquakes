@@ -89,9 +89,21 @@ I also tried with the describe method to investigate more about this features. A
 ![describe1](https://github.com/DiegoMZD/Earthquakes/blob/main/images/19-describe1.jpg)
 ![describe2](https://github.com/DiegoMZD/Earthquakes/blob/main/images/20-describe2.jpg)
 
+To test if 1 day prior n_tremors were higher than any other day, I made 13 t-tests (1 vs 2-14). I got the T-statistic, the p-value and the decision. It looked like there are a some days with a significant difference.
 
+![ttest](https://github.com/DiegoMZD/Earthquakes/blob/main/images/21-ttest.jpg)
+
+Then I investigated if there were any relation between the number of premonitory tremors of 4 different days, and the leading earthquake magnitude. I used the plt.scatter() function to built the scatter plots, and also the np.polyfit() funtion to got the slope and intercept of the linear regression equation of the data. As you can see, there are not any relation.
+
+![scatter](https://github.com/DiegoMZD/Earthquakes/blob/main/images/22-scatter.jpg)
+![4plots](https://github.com/DiegoMZD/Earthquakes/blob/main/images/23-4plots.jpg)
+
+Despite of not finding an interesting insight in the previus steps, I tried 8 different ML models using all the features I could design. I tried LinearRegression, RandomForestRegressor, Ridge and GradientBoostingRegressor. Also I used 2 scalers StandardScaler and MinMaxScaler. I trained this 8 resultant models, the validation was made using cross-validation, and the metric was R2 Score. As expected, all R2 score values were really bad.
+
+![models](https://github.com/DiegoMZD/Earthquakes/blob/main/images/24-models.jpg)
 
 ## Conclusion
+
 
 ## Dependencies
 To install the dependencies, run the following command:
